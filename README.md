@@ -1,7 +1,7 @@
 # telegrafjs-examples
 Examples for package TelegrafJS
 
-# Useing
+# Using
 
 - open command line
 - enter root folder
