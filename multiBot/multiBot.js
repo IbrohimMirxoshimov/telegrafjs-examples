@@ -19,7 +19,7 @@ const botsData = [
 
 // create instances
 const bots = botsData.map((data) => {
-  const bot = new Telegraf(TOKEN);
+  const bot = new Telegraf(data.token);
   bot.context.data = data;
   return bot;
 });
